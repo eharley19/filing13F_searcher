@@ -11,7 +11,7 @@ import pytest
 
 
 def test__parse_sec_accession_no():
-    assert False
+    assert Parser.parse_sec_accession_no()
 
 
 def test__parse_primary_doc_xml_and_infotable_xml_urls():
